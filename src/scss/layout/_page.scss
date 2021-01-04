@@ -1,6 +1,10 @@
-body {
-  padding: 2rem;
-  height: 100vh;
-  background-color: $color-bg;
-  font-family: $font-main;
+// page
+
+.page {
+  &__container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
